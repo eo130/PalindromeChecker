@@ -17,7 +17,8 @@ public void setup()
 public boolean palindrome(String word)
 {
   //your code here
-  if(word.equals(reverse(str)))
+  sWord = word.toLowerCase();
+  if(sWord.equals(reverse(sWord)))
   return true;
   else
   return false;
